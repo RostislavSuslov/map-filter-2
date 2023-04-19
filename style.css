@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.user,
+.column {
+    display: grid;
+}
+.users-container,
+.sort-container {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1450px;
+    padding: 0 12px;
+    margin: 100px auto;
+}
+
+.user {
+    padding: 20px;
+    border: 1px solid #bdbdbd;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.img-fluid {
+    height: auto;
+    max-width: 100%;
+}
+.person-photo {
+    margin-bottom: 12px;
+}
+.person-photo img {
+    border-radius: 5px;
+}
+.person-name {
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+.person-age {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
